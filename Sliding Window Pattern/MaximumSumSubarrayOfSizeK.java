@@ -1,5 +1,3 @@
-package com.demo.dao_authentication_provider;
-
 public class MaximumSumSubarrayOfSizeK {
 
 /*
