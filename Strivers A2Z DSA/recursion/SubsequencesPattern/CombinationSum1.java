@@ -10,7 +10,6 @@ public class CombinationSum1 {
     public static void main(String[] args) {
         int[] arr = {10, 1, 2, 7, 6, 1, 5}; // {2,3,6,7}. {10, 1, 2, 7, 6, 1, 5}, {2, 3, 5}
         int target = 8; // 7, 8, 8
-        int size = arr.length;
         Set<List<Integer>> ans = new HashSet<>();
 
         combinationSum(arr, target, ans);
