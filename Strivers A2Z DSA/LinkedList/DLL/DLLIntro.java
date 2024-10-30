@@ -10,9 +10,9 @@ public class DLLIntro {
         DllNode head = null;
         int[] arr = {12, 8, 5, 7};
 
-        head = DllNodeUtils.convertArrayToLinkedList(arr, head);
-        DllNodeUtils.printLinkedList(head);
-
+//        head = DllNodeUtils.convertArrayToLinkedList(arr, head);
+//        DllNodeUtils.printLinkedList(head);
+//
 //        head = DllNodeUtils.addNodeInLinkedList(9, head);
 //        DllNodeUtils.printLinkedList(head);
 //
@@ -25,13 +25,105 @@ public class DLLIntro {
 //        int k = 3;
 //        head = deleteKthElementOfDLL(head, k);
 //        DllNodeUtils.printLinkedList(head);
-
-        head = deleteNode(head.nextNode);
-        DllNodeUtils.printLinkedList(head);
+//
+//        deleteNode(head.nextNode);
+//        DllNodeUtils.printLinkedList(head);
+//
+//        head = insertBeforeHead(head, 47);
+//        DllNodeUtils.printLinkedList(head);
+//
+//        head = insertBeforeTail(head, 54);
+//        DllNodeUtils.printLinkedList(head);
+//
+//        head = insertBeforeKthElement(head, 2, 54);
+//        DllNodeUtils.printLinkedList(head);
+//
+//        insertBeforeNode(head.nextNode, 34);
+//        DllNodeUtils.printLinkedList(head);
     }
 
-    private static DllNode deleteNode(DllNode node) {
-        return null;
+    private static void insertBeforeNode(DllNode node, int num) {
+
+        DllNode prev = node.prevNode;
+
+        DllNode newNode = new DllNode(num, node, prev);
+        prev.nextNode = newNode;
+        node.prevNode = newNode;
+    }
+
+    private static DllNode insertBeforeKthElement(DllNode head, int k, int num) {
+
+        if(k == 1) {
+            return insertBeforeHead(head, num);
+        }
+
+        DllNode temp = head;
+        int counter = 0;
+
+        while (temp != null) {
+            counter++;
+            if(counter == k) {
+                break;
+            }
+            temp = temp.nextNode;
+        }
+
+        if(temp == null) {
+            return null;
+        }
+
+        DllNode prev = temp.prevNode;
+        DllNode node = new DllNode(num, temp, prev);
+        prev.nextNode = node;
+        temp.prevNode = node;
+
+        return head;
+    }
+
+    private static DllNode insertBeforeTail(DllNode head, int num) {
+        DllNode temp = head;
+
+        if(head.nextNode == null) {
+            return insertBeforeHead(head, num);
+        }
+
+        while (temp.nextNode != null) {
+            temp = temp.nextNode;
+        }
+        DllNode prev = temp.prevNode;
+        DllNode node = new DllNode(num, temp, prev);
+
+        prev.nextNode = node;
+        temp.prevNode = node;
+        return head;
+    }
+
+    private static DllNode insertBeforeHead(DllNode head, int num) {
+        DllNode node = new DllNode(num, head, null);
+
+        if(head != null) {
+            head.prevNode = node;
+        }
+        head = node;
+        return head;
+    }
+
+    private static void deleteNode(DllNode node) {
+        // Node cannot be head so didn't need to write logic for it.
+
+        DllNode prev = node.prevNode;
+        DllNode next = node.nextNode;
+
+        if(next == null) {
+            node.prevNode = null;
+            prev.nextNode = null;
+            return;
+        }
+        prev.nextNode = next;
+        next.prevNode = prev;
+
+        node.prevNode = null;
+        node.nextNode = null;
     }
 
     private static DllNode deleteKthElementOfDLL(DllNode head, int k) {
