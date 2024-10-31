@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
     Striver's link: https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/
