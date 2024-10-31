@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 import java.util.Arrays;
 
 /*

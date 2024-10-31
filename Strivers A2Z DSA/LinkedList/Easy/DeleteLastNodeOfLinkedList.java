@@ -1,3 +1,8 @@
+package LinkedList.Easy;
+
+import LinkedList.Node;
+import LinkedList.NodeUtils;
+
 /*
     Coding platform Link: https://leetcode.com/problems/delete-node-in-a-linked-list/description/
     Striver's link: https://takeuforward.org/data-structure/delete-last-node-of-linked-list/

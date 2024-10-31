@@ -1,3 +1,8 @@
+package LinkedList.DLL;
+
+import LinkedList.DllNode;
+import LinkedList.DllNodeUtils;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1
     Striver's link: https://takeuforward.org/data-structure/delete-last-node-of-a-doubly-linked-list/

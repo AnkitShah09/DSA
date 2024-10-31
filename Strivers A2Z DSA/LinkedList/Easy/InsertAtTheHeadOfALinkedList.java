@@ -1,3 +1,8 @@
+package LinkedList.Easy;
+
+import LinkedList.Node;
+import LinkedList.NodeUtils;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0
     Striver's link: https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list

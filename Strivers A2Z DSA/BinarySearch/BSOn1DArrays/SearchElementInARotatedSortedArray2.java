@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
     Striver's link: https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/

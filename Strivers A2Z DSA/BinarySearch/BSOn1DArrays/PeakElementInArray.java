@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://leetcode.com/problems/find-peak-element/description/
     Striver's link: https://takeuforward.org/data-structure/peak-element-in-array/

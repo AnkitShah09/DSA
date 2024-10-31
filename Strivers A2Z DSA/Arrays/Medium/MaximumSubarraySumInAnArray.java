@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 /*
     Problem Link: https://leetcode.com/problems/maximum-subarray/description/
     Solution Link: https://youtu.be/AHZpyENo7k4

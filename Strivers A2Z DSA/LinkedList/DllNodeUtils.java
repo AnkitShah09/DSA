@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class DllNodeUtils {
 
     public static void printLinkedList(DllNode head) {

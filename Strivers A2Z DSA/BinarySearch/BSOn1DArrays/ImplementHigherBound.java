@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Problem Link: https://takeuforward.org/arrays/implement-upper-bound/
     Solution Link: https://youtu.be/6zhGS79oQ4k

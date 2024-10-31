@@ -1,3 +1,5 @@
+package Arrays.Hard;
+
 /*
     Problem Link: https://leetcode.com/problems/maximum-product-subarray/description/
     Solution Link: https://youtu.be/hnswaLJvr6g

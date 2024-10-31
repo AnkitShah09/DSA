@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 

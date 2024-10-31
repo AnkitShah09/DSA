@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/rotation4723/1
     Striver's link: https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/

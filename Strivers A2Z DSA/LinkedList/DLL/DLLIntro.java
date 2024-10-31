@@ -1,3 +1,7 @@
+package LinkedList.DLL;
+
+import LinkedList.DllNode;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/introduction-to-doubly-linked-list/1
     Striver's link: https://takeuforward.org/linked-list/introduction-to-doubly-linked-list

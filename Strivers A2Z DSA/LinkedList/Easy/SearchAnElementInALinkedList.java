@@ -1,3 +1,8 @@
+package LinkedList.Easy;
+
+import LinkedList.Node;
+import LinkedList.NodeUtils;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1
     Striver's link: https://takeuforward.org/linked-list/search-an-element-in-a-linked-list

@@ -1,3 +1,5 @@
+package Arrays.Hard;
+
 /*
     Problem Link: https://leetcode.com/problems/pascals-triangle/description/
     Solution Link: https://youtu.be/bR7mQgwQ_o8

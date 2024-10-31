@@ -1,3 +1,5 @@
+package Arrays.Hard;
+
 import java.util.*;
 import java.util.stream.Stream;
 

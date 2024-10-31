@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Problem Link: https://takeuforward.org/arrays/implement-lower-bound-bs-2/
     Solution Link: https://youtu.be/6zhGS79oQ4k

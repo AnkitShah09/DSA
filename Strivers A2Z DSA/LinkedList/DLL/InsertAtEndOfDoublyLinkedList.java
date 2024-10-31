@@ -1,3 +1,8 @@
+package LinkedList.DLL;
+
+import LinkedList.DllNode;
+import LinkedList.DllNodeUtils;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1
     Striver's link: https://takeuforward.org/data-structure/insert-at-end-of-doubly-linked-list/

@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Problem Link: https://takeuforward.org/data-structure/binary-search-explained/
     Solution Link: https://youtu.be/MHf6awe89xw

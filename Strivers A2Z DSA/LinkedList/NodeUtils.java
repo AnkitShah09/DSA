@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class NodeUtils {
 
     public static void printLinkedList(Node head) {

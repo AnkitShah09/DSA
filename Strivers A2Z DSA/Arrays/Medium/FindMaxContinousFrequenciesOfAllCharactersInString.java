@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 // Input: str = aaabbaaaacccccbbbccd, output: {a=4, b=3, c=5, d=1}
 // Input: str = abcdefghijkl, output: {a=1, b=1, c=1, d=1, e=1, f=1, g=1, h=1, i=1, j=1, k=1, l=1}
 // Input: str = abaabbbccddddcccaaa, output: {a=3, b=3, c=3, d=4}

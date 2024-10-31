@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
     Striver's link: https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/

@@ -1,3 +1,5 @@
+package BinarySearch.BSOnAnswers;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/square-root/0
     Striver's link: https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/

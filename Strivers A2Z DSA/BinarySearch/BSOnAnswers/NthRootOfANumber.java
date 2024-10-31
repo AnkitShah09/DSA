@@ -1,3 +1,5 @@
+package BinarySearch.BSOnAnswers;
+
 /*
     Coding platform Link: https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1
     Striver's link: https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/

@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Problem Link: https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/
     Solution Link: https://youtu.be/hjR1IYVx9lY

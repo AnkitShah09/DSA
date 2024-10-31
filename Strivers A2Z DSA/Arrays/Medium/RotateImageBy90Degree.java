@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 /*
     Problem Link: https://leetcode.com/problems/rotate-image/
     Solution Link: https://youtu.be/Z0R2u6gd3GU

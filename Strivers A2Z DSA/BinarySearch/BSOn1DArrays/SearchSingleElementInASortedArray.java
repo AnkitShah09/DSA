@@ -1,3 +1,5 @@
+package BinarySearch.BSOn1DArrays;
+
 /*
     Coding platform Link: https://leetcode.com/problems/single-element-in-a-sorted-array/
     Striver's link: https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/

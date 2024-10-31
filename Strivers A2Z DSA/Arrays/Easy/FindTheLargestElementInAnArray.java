@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 /*
     Problem Link: https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/
     Solution Link: https://youtu.be/37E9ckMDdTk

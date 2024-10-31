@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 /*
     Problem Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
     Solution Link: https://youtu.be/eMSfBgbiEjk
