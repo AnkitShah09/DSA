@@ -26,6 +26,10 @@ public class CheckIfTheGivenLinkedListIsPalindrome {
 
     private static boolean isPalindromeLinkedList(Node head) {
 
+        if(head == null || head.nextNode == null) {
+            return true;
+        }
+
         boolean isPalindrome = true;
 
         // BRUTE-FORCE APPROACH
